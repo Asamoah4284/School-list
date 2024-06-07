@@ -1,0 +1,63 @@
+html,
+body {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-weight: 900;
+
+  margin: 0;
+  background: linear-gradient(to right, #ada981, #eb9d23);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  width: 80rem;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.content {
+  margin-top: 10rem;
+  padding: 3rem 10rem;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+
+  margin-top: auto;
+  padding-bottom: 3rem;
+}
+button:not(:first-child) {
+  margin-left: 5px;
+}
+button {
+  border: none;
+  font-size: 1.6rem;
+  padding: 0.8rem 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background: #442a18;
+  cursor: pointer;
+  transition: 0.3s;
+  color: antiquewhite;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.buttons-first {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.buttons-third {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
